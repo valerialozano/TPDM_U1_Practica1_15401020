@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.ittepic.tpdm_u1_practica1_15401020">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activityImg15"></activity>
+        <activity android:name=".activityImg14" />
+        <activity android:name=".activityImg13" />
+        <activity android:name=".activityImg12" />
+        <activity android:name=".activityImg11" />
+        <activity android:name=".activityImg10" />
+        <activity android:name=".activityImg9" />
+        <activity android:name=".activityImg8" />
+        <activity android:name=".activityImg7" />
+        <activity android:name=".activityImg6" />
+        <activity android:name=".activityImg5" />
+        <activity android:name=".activityImg4" />
+        <activity android:name=".activityImg3" />
+        <activity android:name=".activityImg2" />
+        <activity android:name=".activityImg1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
